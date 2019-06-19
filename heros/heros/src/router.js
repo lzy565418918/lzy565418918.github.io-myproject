@@ -10,6 +10,10 @@ import editHero from './assets/components/editHero.vue'
 
 
 let routes = [{
+    path: '*',
+    redirect: '/herolist'
+  },
+  {
     path: '/herolist',
     component: herolist
   },
